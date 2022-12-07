@@ -1,5 +1,7 @@
 <html>
-  <header></header>
+  <header>
+    <link rel="stylesheet" href="styles.css">
+  </header>
   <body>
     <div id="container">
       <h1 id="title">freeCodeCamp Survey Form</h1>
@@ -32,6 +34,46 @@
         <label for="not-sure">Not sure</label>
         <br>
     </input>
+    <label for="age" id="number-label"
+          >What is your favorite feature of freeCodeCamp?</label
+        >
+        <br>
+        <select id="dropdown" placeholder="select an option"> 
+
+            <option>Select an option</option>
+            <option value="Challenge">Challenges</option>
+            <option value="project">Projects</option>
+            <option value="Community">Community</option>
+            <option value="open-source">Open Source</option>
+        </select>
+        <br>
+        <label
+        >What would you like to see improved? (Check all that apply)</label><br>
+      
+        <input type="checkbox" id="" name="" value="front-end-project">
+        <label for="">Front-end Projects</label><br>
+        <input type="checkbox" id="" name="" value="data-visualization">
+        <label for="">Data Visualization</label><br>
+        <input type="checkbox" id="" name="" value="challenges">
+        <label for="">Challenges</label><br>
+        <input type="checkbox" id="" name="" value="open-source">
+        <label for="">Open Source Community</label><br>
+        <input type="checkbox" id="" name="" value="gitter-help-rooms">
+        <label for="">Gitter help rooms</label><br>
+        <input type="checkbox" id="" name="" value="videos">
+        <label for="">Videos</label><br>
+        <input type="checkbox" id="" name="" value="city-meetups">
+        <label for="">City Meetups</label><br>
+        <input type="checkbox" id="" name="" value="wiki">
+        <label for="">Wiki</label><br>
+        <input type="checkbox" id="" name="" value="forum">
+        <label for="">Forum</label><br>
+        <input type="checkbox" id="" name="" value="additional-courses">
+        <label for="">Additional Courses</label>
+        <label
+        >Any comments or suggestions?</label><br>
+        <textarea placeholder="Enter your comment here..."></textarea><br>
+        <button id="submit">Submit</button>
       </form>
     </div>
   </body>
