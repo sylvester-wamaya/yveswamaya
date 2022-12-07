@@ -1,8 +1,38 @@
 <html>
-    <header>
-
-    </header>
-    <body>
-        <h1> Hello World, we are developers!</h1>
-    </body>
+  <header></header>
+  <body>
+    <div id="container">
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p>
+      <div id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input id="name" type="text" placeholder="Enter your name" />
+        <br>
+        <label for="name" id="email-label">Email</label>
+        <input id="email" type="email" placeholder="Enter your email" />
+        <br>
+        <label for="age" id="number-label"
+          >Age (<span id="optional">optional</span>)</label
+        >
+        <input id="age" type="number" min="18" max="50" placeholder="Age" />
+        <br>
+        <label for="recommendation" id="recommendation-label"
+          >Would you recommend freeCodeCamp to a friend?</label
+        >
+        <br>
+        <input type="radio" id="definitely" name="recommendation" value="definitely" checked>
+        <label for="definitely">Definitely</label>
+        <br>
+        <input type="radio" id="maybe" name="recommendation" value="maybe">
+        <label for="maybe">Maybe</label>
+        <br>
+        <input type="radio" id="not-sure" name="recommendation" value="not-sure">
+        <label for="not-sure">Not sure</label>
+        <br>
+    </input>
+      </form>
+    </div>
+  </body>
 </html>
